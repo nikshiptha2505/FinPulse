@@ -1,5 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8080/api";
-
+const BASE_URL = "https://finpulse-backend-7h89.onrender.com/api";
 // ── Token helpers ─────────────────────────────────────────────────────────────
 export const getToken   = ()  => localStorage.getItem("fp_token");
 export const getUser    = ()  => { try { return JSON.parse(localStorage.getItem("fp_user")); } catch { return null; } };

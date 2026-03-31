@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://finpulse-backend-7h89.onrender.com',
+       target: 'https://finpulse-backend-7h89.onrender.com',
         changeOrigin: true,
       },
     },
